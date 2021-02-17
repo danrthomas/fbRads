@@ -1,5 +1,4 @@
 #' Create Ad Campaign
-#' @inheritParams fbad_request
 #' @inheritParams fbad_create_ad
 #' @return Ad Campaign id
 #' @export
