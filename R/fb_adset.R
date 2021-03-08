@@ -62,6 +62,7 @@ fbad_create_adset <- function(fbacc,
         optimization_goal = optimization_goal,
         billing_event     = billing_event,
         campaign_id       = campaign_id,
+        promoted_object   = promoted_object,
         configured_status = match.arg(status))
     ## option for auto bidding
     if (is_autobid) {
